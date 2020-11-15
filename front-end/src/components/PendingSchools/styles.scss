@@ -1,0 +1,11 @@
+.pending {
+  width: 100%;
+  .school {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    .name {
+      flex-basis: 20%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .welcome-user {
+    & > p {
+      font-size: 1rem;
+      color: gray;
+    }
+
+    button {
+      border: none;
+      color: white;
+      background: red;
+      font-weight: bold;
+      padding: 0.2rem 2.7rem;
+      cursor: pointer;
+    }
+  }
+}
